@@ -8,26 +8,29 @@ export default function Navbar() {
         </div>
 
         <nav className="hidden gap-10 text-sm text-slate-600 md:flex">
-          <a href="#work" className="hover:text-slate-950 transition">
+          <a href="#work" className="transition hover:text-slate-950">
             Approach
           </a>
 
-          <a href="#projects" className="hover:text-slate-950 transition">
+          <a href="#projects" className="transition hover:text-slate-950">
             Projects
           </a>
 
-          <a href="#about" className="hover:text-slate-950 transition">
+          <a href="#about" className="transition hover:text-slate-950">
             About
           </a>
 
-          <a href="#contact" className="hover:text-slate-950 transition">
+          <a href="#contact" className="transition hover:text-slate-950">
             Contact
           </a>
         </nav>
 
-        <button className="rounded-full border border-slate-300 px-5 py-2 text-sm font-medium hover:bg-slate-950 hover:text-white transition">
-          Get in touch
-        </button>
+        <a
+          href="#contact"
+          className="rounded-full border border-slate-300 px-5 py-2 text-sm font-medium transition hover:bg-slate-950 hover:text-white"
+        >
+          Let's talk
+        </a>
 
       </div>
     </header>
