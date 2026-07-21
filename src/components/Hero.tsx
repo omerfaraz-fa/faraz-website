@@ -29,12 +29,7 @@ export default function Hero() {
               Explore my work
             </a>
 
-            <a
-              href="#contact"
-              className="rounded-full border border-slate-300 px-6 py-3 text-center text-sm font-medium transition hover:border-slate-950"
-            >
-              View CV
-            </a>
+            
           </div>
         </div>
 

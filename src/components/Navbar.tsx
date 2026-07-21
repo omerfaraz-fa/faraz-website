@@ -9,7 +9,7 @@ export default function Navbar() {
 
         <nav className="hidden gap-10 text-sm text-slate-600 md:flex">
           <a href="#work" className="hover:text-slate-950 transition">
-            Work
+            Approach
           </a>
 
           <a href="#projects" className="hover:text-slate-950 transition">
