@@ -12,8 +12,8 @@ export default function Navbar() {
             Work
           </a>
 
-          <a href="#expertise" className="hover:text-slate-950 transition">
-            Expertise
+          <a href="#projects" className="hover:text-slate-950 transition">
+            Projects
           </a>
 
           <a href="#about" className="hover:text-slate-950 transition">
