@@ -289,6 +289,35 @@ export default function GoogleRetailAutomationPage() {
 
   </div>
 </section>
+{/* Continue Exploring */}
+
+<section className="border-t border-slate-200 bg-slate-950 px-6 py-24 text-white lg:px-8">
+  <div className="mx-auto max-w-5xl">
+    <p className="text-sm font-medium uppercase tracking-[0.18em] text-slate-400">
+      Continue Exploring
+    </p>
+
+    <div className="mt-6 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
+      <div>
+        <h2 className="max-w-3xl text-4xl font-semibold tracking-[-0.035em] sm:text-5xl">
+          Finance Data Synchronization Platform
+        </h2>
+
+        <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
+          Replacing a fragile finance synchronization workflow with a reliable,
+          cloud-based platform designed for visibility, control, and future
+          growth.
+        </p>
+      </div>
+
+      <div className="shrink-0">
+        <span className="inline-flex rounded-full border border-slate-700 px-5 py-3 text-sm font-medium text-slate-300">
+          Coming next
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
     </main>
   );
 }

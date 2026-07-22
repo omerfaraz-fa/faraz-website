@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import BusinessImpact from "../components/BusinessImpact";
@@ -16,8 +17,9 @@ export default function Home() {
       <About />
 
       <FeaturedProjects />
-      
+
       <Contact />
+      <Footer />
     </main>
   );
 }
