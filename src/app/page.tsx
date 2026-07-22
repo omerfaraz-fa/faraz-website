@@ -1,3 +1,4 @@
+import HowIThink from "../components/HowIThink";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
@@ -13,12 +14,15 @@ export default function Home() {
       <Hero />
 
       <BusinessImpact />
-      
-      <About />
+
+      <HowIThink />
 
       <FeaturedProjects />
 
+      <About />
+
       <Contact />
+      
       <Footer />
     </main>
   );

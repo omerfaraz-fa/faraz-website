@@ -300,21 +300,28 @@ export default function GoogleRetailAutomationPage() {
     <div className="mt-6 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
       <div>
         <h2 className="max-w-3xl text-4xl font-semibold tracking-[-0.035em] sm:text-5xl">
-          Finance Data Synchronization Platform
+          Internal Finance Integration Platform
         </h2>
 
         <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-          Replacing a fragile finance synchronization workflow with a reliable,
-          cloud-based platform designed for visibility, control, and future
-          growth.
+          See how a fragile, machine-dependent finance synchronization process
+          was redesigned into a browser-accessible platform with centralized
+          Snowflake integration and improved operational reliability.
         </p>
       </div>
 
-      <div className="shrink-0">
-        <span className="inline-flex rounded-full border border-slate-700 px-5 py-3 text-sm font-medium text-slate-300">
-          Coming next
+      <a
+        href="/case-studies/internal-finance-integration"
+        className="group inline-flex shrink-0 items-center gap-2 rounded-full border border-slate-700 px-5 py-3 text-sm font-medium text-slate-200 transition hover:border-slate-400 hover:text-white"
+      >
+        Read case study
+        <span
+          aria-hidden="true"
+          className="transition group-hover:translate-x-1"
+        >
+          →
         </span>
-      </div>
+      </a>
     </div>
   </div>
 </section>
