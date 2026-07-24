@@ -96,7 +96,7 @@ export default function Hero() {
 
         {/* Interactive system visual */}
 
-        <div className="hidden lg:block">
+        <div className="block">
           <div className="relative mx-auto h-[520px] max-w-2xl overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-950 p-6 shadow-2xl">
             {/* Background effects */}
 
