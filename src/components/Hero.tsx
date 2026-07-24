@@ -57,15 +57,14 @@ export default function Hero() {
 
   return (
     <section className="border-b border-slate-200 bg-white">
-      <div className="mx-auto grid min-h-[calc(100vh-80px)] max-w-7xl items-center gap-14 px-6 py-16 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
+      <div className="mx-auto grid min-h-[calc(100vh-80px)] max-w-[1500px] items-center gap-14 px-6 py-16 xl:grid-cols-[minmax(0,1fr)_620px] xl:px-8">
         {/* Hero content */}
-
-        <div>
-          <p className="mb-6 whitespace-nowrap text-sm font-medium uppercase tracking-[0.18em] text-slate-500">
+        <div className="min-w-0">
+          <p className="mb-6 whitespace-nowrap text-[13px] font-medium uppercase tracking-[0.16em] text-slate-500 xl:text-sm xl:tracking-[0.18em]">
             Business Transformation · Data Integration · Process Automation
           </p>
 
-          <h1 className="max-w-4xl text-5xl font-semibold leading-[1.05] tracking-[-0.04em] sm:text-6xl lg:text-7xl">
+          <h1 className="max-w-4xl text-5xl font-semibold leading-[1.05] tracking-[-0.04em] sm:text-6xl xl:text-7xl">
             I simplify complex business operations through data, systems, and
             automation.
           </h1>
@@ -83,7 +82,6 @@ export default function Hero() {
               className="group inline-flex items-center gap-3 rounded-full bg-slate-950 px-6 py-3 text-sm font-medium text-white transition hover:bg-slate-800"
             >
               Explore my work
-
               <span
                 aria-hidden="true"
                 className="transition duration-300 group-hover:translate-x-1"
@@ -92,65 +90,60 @@ export default function Hero() {
               </span>
             </a>
           </div>
+
           {/* Mobile system visual */}
+          <div className="mt-12 md:hidden">
+            <div className="rounded-3xl border border-slate-200 bg-slate-950 p-5 text-white shadow-xl">
+              <p className="text-xs font-medium uppercase tracking-[0.18em] text-slate-400">
+                Connected Business System
+              </p>
 
-<div className="mt-12 sm:hidden">
-  <div className="rounded-3xl border border-slate-200 bg-slate-950 p-5 text-white shadow-xl">
-    <p className="text-xs font-medium uppercase tracking-[0.18em] text-slate-400">
-      Connected Business System
-    </p>
+              <div className="mt-6 space-y-4">
+                <div className="rounded-2xl border border-slate-700 bg-slate-900 px-4 py-3">
+                  <p className="text-sm font-semibold">Retail Files & Emails</p>
+                  <p className="mt-1 text-xs text-slate-400">
+                    Fragmented business inputs
+                  </p>
+                </div>
 
-    <div className="mt-6 space-y-4">
-      <div className="rounded-2xl border border-slate-700 bg-slate-900 px-4 py-3">
-        <p className="text-sm font-semibold">Retail Files & Emails</p>
-        <p className="mt-1 text-xs text-slate-400">
-          Fragmented business inputs
-        </p>
-      </div>
+                <div className="text-center text-xl text-slate-500">↓</div>
 
-      <div className="text-center text-xl text-slate-500">↓</div>
+                <div className="rounded-2xl border border-emerald-400/70 bg-emerald-950/70 px-4 py-4 text-center shadow-[0_0_28px_rgba(52,211,153,0.18)]">
+                  <p className="text-sm font-semibold">Automated Ingestion</p>
+                  <p className="mt-1 text-xs text-emerald-200">
+                    Apps Script · Fivetran
+                  </p>
+                </div>
 
-      <div className="rounded-2xl border border-emerald-400/70 bg-emerald-950/70 px-4 py-4 text-center shadow-[0_0_28px_rgba(52,211,153,0.18)]">
-        <p className="text-sm font-semibold">Automated Ingestion</p>
-        <p className="mt-1 text-xs text-emerald-200">
-          Apps Script · Fivetran
-        </p>
-      </div>
+                <div className="text-center text-xl text-slate-500">↓</div>
 
-      <div className="text-center text-xl text-slate-500">↓</div>
+                <div className="rounded-2xl border border-sky-400/70 bg-sky-950/70 px-4 py-4 text-center shadow-[0_0_28px_rgba(56,189,248,0.18)]">
+                  <p className="text-sm font-semibold">Snowflake</p>
+                  <p className="mt-1 text-xs text-sky-200">Centralized Data</p>
+                </div>
 
-      <div className="rounded-2xl border border-sky-400/70 bg-sky-950/70 px-4 py-4 text-center shadow-[0_0_28px_rgba(56,189,248,0.18)]">
-        <p className="text-sm font-semibold">Snowflake</p>
-        <p className="mt-1 text-xs text-sky-200">Centralized Data</p>
-      </div>
+                <div className="grid grid-cols-2 gap-3 pt-1">
+                  <div className="rounded-2xl border border-indigo-400/60 bg-indigo-950/70 px-3 py-3 text-center">
+                    <p className="text-sm font-semibold">Salesforce</p>
+                    <p className="mt-1 text-xs text-indigo-200">Operations</p>
+                  </div>
 
-      <div className="grid grid-cols-2 gap-3 pt-1">
-        <div className="rounded-2xl border border-indigo-400/60 bg-indigo-950/70 px-3 py-3 text-center">
-          <p className="text-sm font-semibold">Salesforce</p>
-          <p className="mt-1 text-xs text-indigo-200">Operations</p>
-        </div>
-
-        <div className="rounded-2xl border border-violet-400/60 bg-violet-950/70 px-3 py-3 text-center">
-          <p className="text-sm font-semibold">Tableau</p>
-          <p className="mt-1 text-xs text-violet-200">Reporting</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+                  <div className="rounded-2xl border border-violet-400/60 bg-violet-950/70 px-3 py-3 text-center">
+                    <p className="text-sm font-semibold">Tableau</p>
+                    <p className="mt-1 text-xs text-violet-200">Reporting</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Interactive system visual */}
-
-        <div className="hidden sm:block">
-          <div className="relative mx-auto h-[520px] max-w-2xl overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-950 p-6 shadow-2xl">
-            {/* Background effects */}
-
+        <div className="hidden md:block">
+          <div className="relative mx-auto h-[520px] w-full max-w-[620px] overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-950 p-6 shadow-2xl">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.16),transparent_42%)]" />
 
             <div className="absolute inset-x-0 bottom-0 h-52 opacity-30 [background-image:linear-gradient(rgba(56,189,248,0.3)_1px,transparent_1px),linear-gradient(90deg,rgba(56,189,248,0.3)_1px,transparent_1px)] [background-size:48px_48px] [mask-image:linear-gradient(to_top,black,transparent)]" />
-
-            {/* Connections */}
 
             <svg
               viewBox="0 0 700 520"
@@ -166,15 +159,12 @@ export default function Hero() {
 
                 <filter id="softGlow">
                   <feGaussianBlur stdDeviation="3" result="blur" />
-
                   <feMerge>
                     <feMergeNode in="blur" />
                     <feMergeNode in="SourceGraphic" />
                   </feMerge>
                 </filter>
               </defs>
-
-              {/* Source connections */}
 
               {sourcePaths.map((path) => {
                 const isSelected = activePath === path.id;
@@ -192,14 +182,10 @@ export default function Hero() {
                     className={`system-flow-line transition-all duration-300 ${
                       anotherPathIsSelected ? "opacity-15" : "opacity-100"
                     }`}
-                    style={{
-                      animationDelay: path.delay,
-                    }}
+                    style={{ animationDelay: path.delay }}
                   />
                 );
               })}
-
-              {/* Output connections */}
 
               <path
                 d="M435 230 C500 230, 490 170, 555 150"
@@ -221,8 +207,6 @@ export default function Hero() {
                 style={{ animationDelay: "1s" }}
               />
 
-              {/* Connection points */}
-
               <circle
                 cx="330"
                 cy="225"
@@ -243,13 +227,9 @@ export default function Hero() {
               />
             </svg>
 
-            {/* Diagram title */}
-
             <div className="absolute left-6 top-6 text-xs font-medium uppercase tracking-[0.18em] text-slate-400">
               Connected Business System
             </div>
-
-            {/* Source nodes */}
 
             {sourceNodes.map((node) => {
               const isSelected = activePath === node.id;
@@ -268,15 +248,12 @@ export default function Hero() {
                   } ${anotherNodeIsSelected ? "opacity-55" : "opacity-100"}`}
                 >
                   <p className="text-sm font-semibold">{node.title}</p>
-
                   <p className="mt-1 text-xs text-slate-400">
                     {node.subtitle}
                   </p>
                 </div>
               );
             })}
-
-            {/* Integration node */}
 
             <div
               className={`absolute left-[46%] top-[44%] z-10 w-44 -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-emerald-400/70 bg-emerald-950/80 px-5 py-5 text-center text-white backdrop-blur transition-all duration-300 ${
@@ -286,13 +263,10 @@ export default function Hero() {
               }`}
             >
               <p className="text-sm font-semibold">Automated Ingestion</p>
-
               <p className="mt-2 text-xs text-emerald-200">
                 Apps Script · Fivetran
               </p>
             </div>
-
-            {/* Snowflake node */}
 
             <div
               className={`absolute left-[68%] top-[44%] z-10 w-40 -translate-x-1/2 -translate-y-1/2 rounded-2xl border border-sky-400/70 bg-sky-950/80 px-5 py-5 text-center text-white backdrop-blur transition-all duration-300 ${
@@ -302,27 +276,20 @@ export default function Hero() {
               }`}
             >
               <p className="text-sm font-semibold">Snowflake</p>
-
               <p className="mt-2 text-xs text-sky-200">Centralized Data</p>
             </div>
 
-            {/* Destination nodes */}
-
             <div className="absolute right-6 top-[19%] z-10 w-36 rounded-2xl border border-indigo-400/60 bg-indigo-950/70 px-4 py-4 text-white shadow-lg backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:border-indigo-300 hover:shadow-[0_0_28px_rgba(129,140,248,0.25)]">
               <p className="text-sm font-semibold">Salesforce</p>
-
               <p className="mt-1 text-xs text-indigo-200">Operations</p>
             </div>
 
             <div className="absolute right-6 top-[56%] z-10 w-36 rounded-2xl border border-violet-400/60 bg-violet-950/70 px-4 py-4 text-white shadow-lg backdrop-blur transition-all duration-300 hover:-translate-y-1 hover:border-violet-300 hover:shadow-[0_0_28px_rgba(167,139,250,0.25)]">
               <p className="text-sm font-semibold">Tableau</p>
-
               <p className="mt-1 text-xs text-violet-200">
                 Analytics & Reporting
               </p>
             </div>
-
-            {/* Diagram caption */}
 
             <div className="absolute bottom-5 left-1/2 w-full -translate-x-1/2 text-center">
               <p className="text-xs uppercase tracking-[0.18em] text-slate-500">
