@@ -1,3 +1,4 @@
+import BusinessTransformationSimulator from "../components/BusinessTransformationSimulator";
 import HowIThink from "../components/HowIThink";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
@@ -13,6 +14,8 @@ export default function Home() {
 
       <Hero />
 
+      <BusinessTransformationSimulator />
+
       <BusinessImpact />
 
       <HowIThink />
@@ -22,7 +25,7 @@ export default function Home() {
       <About />
 
       <Contact />
-      
+
       <Footer />
     </main>
   );
