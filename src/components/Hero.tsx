@@ -92,11 +92,57 @@ export default function Hero() {
               </span>
             </a>
           </div>
+          {/* Mobile system visual */}
+
+<div className="mt-12 sm:hidden">
+  <div className="rounded-3xl border border-slate-200 bg-slate-950 p-5 text-white shadow-xl">
+    <p className="text-xs font-medium uppercase tracking-[0.18em] text-slate-400">
+      Connected Business System
+    </p>
+
+    <div className="mt-6 space-y-4">
+      <div className="rounded-2xl border border-slate-700 bg-slate-900 px-4 py-3">
+        <p className="text-sm font-semibold">Retail Files & Emails</p>
+        <p className="mt-1 text-xs text-slate-400">
+          Fragmented business inputs
+        </p>
+      </div>
+
+      <div className="text-center text-xl text-slate-500">↓</div>
+
+      <div className="rounded-2xl border border-emerald-400/70 bg-emerald-950/70 px-4 py-4 text-center shadow-[0_0_28px_rgba(52,211,153,0.18)]">
+        <p className="text-sm font-semibold">Automated Ingestion</p>
+        <p className="mt-1 text-xs text-emerald-200">
+          Apps Script · Fivetran
+        </p>
+      </div>
+
+      <div className="text-center text-xl text-slate-500">↓</div>
+
+      <div className="rounded-2xl border border-sky-400/70 bg-sky-950/70 px-4 py-4 text-center shadow-[0_0_28px_rgba(56,189,248,0.18)]">
+        <p className="text-sm font-semibold">Snowflake</p>
+        <p className="mt-1 text-xs text-sky-200">Centralized Data</p>
+      </div>
+
+      <div className="grid grid-cols-2 gap-3 pt-1">
+        <div className="rounded-2xl border border-indigo-400/60 bg-indigo-950/70 px-3 py-3 text-center">
+          <p className="text-sm font-semibold">Salesforce</p>
+          <p className="mt-1 text-xs text-indigo-200">Operations</p>
+        </div>
+
+        <div className="rounded-2xl border border-violet-400/60 bg-violet-950/70 px-3 py-3 text-center">
+          <p className="text-sm font-semibold">Tableau</p>
+          <p className="mt-1 text-xs text-violet-200">Reporting</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
 
         {/* Interactive system visual */}
 
-        <div className="block">
+        <div className="hidden sm:block">
           <div className="relative mx-auto h-[520px] max-w-2xl overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-950 p-6 shadow-2xl">
             {/* Background effects */}
 
