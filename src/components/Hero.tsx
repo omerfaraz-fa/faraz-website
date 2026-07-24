@@ -61,7 +61,7 @@ export default function Hero() {
         {/* Hero content */}
 
         <div>
-          <p className="mb-6 text-sm font-medium uppercase tracking-[0.18em] text-slate-500">
+          <p className="mb-6 whitespace-nowrap text-sm font-medium uppercase tracking-[0.18em] text-slate-500">
             Business Transformation · Data Integration · Process Automation
           </p>
 
