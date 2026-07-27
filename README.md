@@ -1,38 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# faraz.cc
 
-## Getting Started
+Personal website and professional portfolio of **Omer Faraz**.
 
-First, run the development server:
+Built to showcase real-world business transformation projects, data integration solutions, automation initiatives, and system architecture case studies.
+
+---
+
+## Live Website
+
+https://faraz.cc
+
+---
+
+## About
+
+This website demonstrates my work in:
+
+- Business Analysis
+- Data Integration
+- Process Automation
+- Snowflake
+- Salesforce
+- SQL
+- Python
+- ETL
+- AI-assisted Business Solutions
+
+Instead of focusing on theory, the portfolio highlights practical projects that improved operational efficiency, reduced manual work, and simplified complex business processes.
+
+---
+
+## Technology Stack
+
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
+- Vercel
+- GitHub
+
+---
+
+## Featured Case Studies
+
+- Retail Data Automation
+- Finance Data Integration Platform
+- Production Data Architecture
+- Salesforce Process Improvements
+- AI-assisted Business Solutions
+
+---
+
+## Features
+
+- Responsive design
+- Interactive architecture diagrams
+- Professional project portfolio
+- Fast static rendering
+- SEO optimized
+- Accessible UI
+
+---
+
+## Local Development
+
+Clone the repository
+
+```bash
+git clone https://github.com/omerfaraz-fa/faraz-website.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+Hosted on Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Every push to the main branch automatically deploys the latest version.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+MIT License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# faraz-website
-Personal website and professional portfolio for Omer Faraz.
+---
+
+## Contact
+
+Website
+
+https://faraz.cc
+
+LinkedIn
+
+https://linkedin.com/in/omerfaraz
+
+GitHub
+
+https://github.com/omerfaraz-fa
