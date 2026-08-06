@@ -8,7 +8,7 @@ interface NavbarProps {
 }
 
 export default function Navbar({
-  ctaLabel = "Let’s talk",
+  ctaLabel = "Let's talk",
   ctaHref = "/#contact",
   showNavigation = true,
 }: NavbarProps) {
@@ -17,8 +17,9 @@ export default function Navbar({
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-8">
         <Link
           href="/"
+          title="View full portfolio"
+          aria-label="View full portfolio"
           className="flex items-center gap-3"
-          aria-label="Faraz.cc homepage"
         >
           <Image
             src="/logo-final.svg"

@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 import Navbar from "../Navbar";
 
 export default function Hero() {
@@ -79,13 +77,7 @@ export default function Hero() {
                 LinkedIn ↗
               </a>
 
-              <Link
-                href="/#projects"
-                className="transition hover:text-slate-950"
-              >
-                Full portfolio →
-              </Link>
-
+              
               <a
                 href="https://github.com/omerfaraz-fa"
                 target="_blank"
