@@ -43,11 +43,11 @@ const projects = [
 
 export default function FeaturedProjects() {
   return (
-    <Section>
+    <Section id="projects">
       <SectionHeading
-        eyebrow="Selected Work"
-        title="Featured Enterprise Projects"
-        description="Three examples of how I translate operational challenges into practical, scalable business solutions."
+        eyebrow="Selected work"
+        title="Systems built around real operational problems."
+        description="A selection of projects focused on integration, automation and making complex business processes easier to operate."
       />
 
       <div className="mt-12 space-y-6">
@@ -133,6 +133,63 @@ export default function FeaturedProjects() {
             </div>
           </article>
         ))}
+      </div>
+
+      {/* Learning / exploration project */}
+      <div className="mt-10 border-t border-slate-200 pt-10">
+        <div className="rounded-[2rem] bg-slate-950 p-6 text-white sm:p-8 lg:p-10">
+          <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
+            <div>
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-sky-400">
+                Learning & exploration
+              </p>
+
+              <h3 className="mt-4 text-2xl font-semibold tracking-[-0.03em] sm:text-3xl">
+                CommercePilot
+              </h3>
+
+              <p className="mt-2 text-lg text-slate-300">
+                AI Agent Learning Project
+              </p>
+
+              <p className="mt-5 max-w-3xl text-base leading-7 text-slate-400">
+                I kept encountering AI agents in technology conversations and
+                wanted to understand what actually makes a system agentic.
+                Rather than only reading about them, I built CommercePilot to
+                explore the full decision cycle hands-on — from observing
+                business signals and investigating a problem to making a
+                controlled decision, acting, evaluating the result and retaining
+                what it learns.
+              </p>
+
+              <div className="mt-6 flex flex-wrap gap-2">
+                {[
+                  "Agentic AI",
+                  "Guardrails",
+                  "Decision Logic",
+                  "Decision Memory",
+                ].map((item) => (
+                  <span
+                    key={item}
+                    className="rounded-full border border-slate-700 px-3 py-1.5 text-xs font-medium text-slate-300"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <Link
+                href="/labs/commercepilot"
+                className="inline-flex items-center gap-2 rounded-full border border-sky-500/40 bg-sky-500/10 px-5 py-3 text-sm font-semibold text-sky-300 transition hover:border-sky-400 hover:bg-sky-500/15 hover:text-sky-200"
+              >
+                Explore CommercePilot
+                <span aria-hidden="true">→</span>
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="mt-10">

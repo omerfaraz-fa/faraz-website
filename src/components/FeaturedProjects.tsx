@@ -1,6 +1,7 @@
 // src/components/FeaturedProjects.tsx
 import type { ReactNode } from "react";
 import Link from "next/link";
+import CommercePilotFeature from "./CommercePilotFeature";
 
 const projects = [
   {
@@ -138,7 +139,28 @@ export default function FeaturedProjects() {
                 </div>
               </div>
             </Link>
-          ))}
+                    ))}
+        </div>
+
+        {/* AI Operations Lab */}
+        <div className="mt-14 border-t border-slate-200 pt-12 sm:mt-16 sm:pt-14 lg:mt-20 lg:pt-16">
+          <div className="mb-7 max-w-3xl sm:mb-9">
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-slate-500 sm:text-sm">
+              Beyond my core work
+            </p>
+
+            <h2 className="mt-2 text-2xl font-semibold tracking-[-0.035em] text-slate-950 sm:text-3xl">
+              Learning by building.
+            </h2>
+
+            <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600 sm:text-base sm:leading-7">
+              I like understanding new technology well enough to see where it
+              could actually be useful. CommercePilot started with that kind of
+              curiosity.
+            </p>
+          </div>
+
+          <CommercePilotFeature />
         </div>
       </div>
     </section>
