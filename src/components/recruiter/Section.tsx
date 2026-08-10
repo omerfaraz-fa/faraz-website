@@ -16,7 +16,9 @@ export default function Section({
       id={id}
       className={`border-b border-slate-200/80 ${className}`}
     >
-      {children}
+      <div className="mx-auto w-full max-w-7xl px-5 py-16 sm:px-6 sm:py-24 lg:px-8">
+        {children}
+      </div>
     </section>
   );
 }
