@@ -115,11 +115,12 @@ export default function Hero() {
           </h1>
 
           <p className="mt-5 max-w-2xl text-base leading-7 text-slate-600 sm:mt-8 sm:text-lg sm:leading-8">
-            I help organizations transform manual processes into scalable,
-            reliable business systems by connecting data, streamlining
-            workflows, and building practical automation that delivers
-            measurable business impact.
-          </p>
+  Technical Business Analyst with 6+ years of experience bridging
+  business requirements and technical delivery across enterprise data
+  integration, business systems and process automation. I simplify
+  manual and fragmented operations by connecting data, streamlining
+  workflows and building practical automation.
+</p>
 
           <div className="mt-8 sm:mt-10">
             <a

@@ -74,8 +74,53 @@ export default function About() {
           </div>
         </div>
 
+        {/* Professional progression */}
         <div className="mt-20 border-t border-slate-800 pt-10">
-          <p className="max-w-5xl text-3xl font-medium leading-tight tracking-[-0.025em] text-slate-200 sm:text-4xl">
+          <p className="text-sm font-medium uppercase tracking-[0.18em] text-slate-400">
+            How My Work Has Evolved
+          </p>
+
+          <div className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-3 text-lg font-medium text-slate-200 sm:text-xl">
+            <span>Excel &amp; Manual Operations</span>
+
+            <span className="text-slate-600" aria-hidden="true">
+              →
+            </span>
+
+            <span>Power Query</span>
+
+            <span className="text-slate-600" aria-hidden="true">
+              →
+            </span>
+
+            <span>Salesforce &amp; Business Systems</span>
+
+            <span className="text-slate-600" aria-hidden="true">
+              →
+            </span>
+
+            <span>Snowflake / SQL / Python</span>
+
+            <span className="text-slate-600" aria-hidden="true">
+              →
+            </span>
+
+            <span>Automation</span>
+
+            <span className="text-slate-600" aria-hidden="true">
+              →
+            </span>
+
+            <span>AI-assisted Delivery</span>
+          </div>
+
+          <p className="mt-6 max-w-3xl text-base leading-7 text-slate-400">
+            The technology has evolved, but the objective has remained
+            consistent: understand the business problem, improve how information
+            moves, and make operations more reliable and scalable.
+          </p>
+
+          <p className="mt-12 max-w-5xl text-3xl font-medium leading-tight tracking-[-0.025em] text-slate-200 sm:text-4xl">
             The best systems are often the ones people barely notice—because
             information flows naturally, repetitive work disappears, and the
             business can focus on what matters.
