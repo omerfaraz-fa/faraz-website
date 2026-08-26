@@ -39,7 +39,7 @@ export default function About() {
 
             <p className="mt-8 max-w-xl text-lg leading-8 text-slate-300">
               My role is often to translate between what the business needs and
-              what technology can realistically deliver—then turn that
+              what technology can realistically deliver, then turn that
               understanding into a practical operating model.
             </p>
           </div>
@@ -121,9 +121,7 @@ export default function About() {
           </p>
 
           <p className="mt-12 max-w-5xl text-3xl font-medium leading-tight tracking-[-0.025em] text-slate-200 sm:text-4xl">
-            The best systems are often the ones people barely notice—because
-            information flows naturally, repetitive work disappears, and the
-            business can focus on what matters.
+            The best systems are often the ones people barely notice. Information flows naturally, repetitive work disappears, and the business can focus on what matters.
           </p>
         </div>
       </div>
