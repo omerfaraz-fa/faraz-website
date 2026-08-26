@@ -48,13 +48,17 @@ export default function CardHeader() {
         </h2>
 
         {/* Companies */}
-        <div className="mt-5 flex items-center gap-4 text-base text-slate-300">
-          <span>Google</span>
+        <div className="mt-5 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-base text-slate-300">
+  <span>Google</span>
 
-          <span className="text-slate-600">•</span>
+  <span className="text-slate-600">•</span>
 
-          <span>Samsung</span>
-        </div>
+  <span>Samsung</span>
+
+  <span className="text-slate-600">•</span>
+
+  <span>Adidas</span>
+</div>
 
         {/* Divider */}
         <div className="mt-5 h-px w-24 bg-white/15" />
