@@ -13,7 +13,7 @@ export default function Hero() {
         <div className="mx-auto max-w-7xl px-5 py-10 sm:px-6 sm:py-14 lg:px-8 lg:py-16">
           <div className="max-w-4xl">
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-slate-500 sm:text-sm">
-              Business Analyst
+              Technical Business Analyst
             </p>
 
             <h1 className="mt-4 max-w-4xl text-[2.65rem] font-semibold leading-[1.03] tracking-[-0.05em] text-slate-950 sm:text-6xl lg:text-7xl">
@@ -22,15 +22,19 @@ export default function Hero() {
 
             <div className="mt-7 sm:mt-9">
               <p className="text-xs font-medium uppercase tracking-[0.18em] text-slate-500 sm:text-sm">
-                Supporting enterprise programs for
+                Current enterprise programmes supported through WorkShop International
               </p>
 
-              <div className="mt-3 flex items-center gap-3 text-xl font-semibold text-slate-950">
+              <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2 text-xl font-semibold text-slate-950">
                 <span>Google</span>
                 <span className="text-slate-300" aria-hidden="true">
                   •
                 </span>
                 <span>Samsung</span>
+                <span className="text-slate-300" aria-hidden="true">
+                  •
+                </span>
+                <span>Adidas</span>
               </div>
             </div>
 
@@ -77,7 +81,6 @@ export default function Hero() {
                 LinkedIn ↗
               </a>
 
-              
               <a
                 href="https://github.com/omerfaraz-fa"
                 target="_blank"

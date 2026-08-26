@@ -3,6 +3,7 @@
 import {
   Hero,
   ExecutiveStats,
+  ClientProgrammes,
   ExecutiveSummary,
   Capabilities,
   FeaturedProjects,
@@ -34,6 +35,8 @@ export default function MeetPage() {
       <Hero />
 
       <ExecutiveStats />
+
+      <ClientProgrammes />
 
       <FeaturedProjects />
 

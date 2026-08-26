@@ -5,19 +5,22 @@ const stats = [
   {
     value: "2 days → 2 hrs",
     description:
-      "Reduced a complex weekly operational process through integration and automation.",
+      "Reduced a complex recurring operational process through data integration and automation.",
   },
   {
     value: "300+",
-    description: "Business system users supported across enterprise programs.",
+    description:
+      "Business system users supported across enterprise client programmes.",
   },
   {
-    value: "1,600+",
-    description: "Retail locations managed across multiple European markets.",
-  },
+    value: "Nordics + Europe",
+    description:
+      "Supporting multi-country enterprise programmes across Nordic and wider European markets.",
+},
   {
     value: "6+",
-    description: "Years working across business systems, data and operations.",
+    description:
+      "Years working across business analysis, data integration, systems and automation.",
   },
 ];
 

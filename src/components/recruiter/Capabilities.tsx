@@ -5,30 +5,49 @@ const capabilities = [
   {
     title: "Data Integration",
     description:
-      "Designing reliable data flows across operational sources, cloud platforms, business systems and reporting environments.",
-    skills: ["Snowflake", "SQL", "ETL", "Data Transformation"],
+      "Designing and operating reliable data flows across source systems, Snowflake, business platforms and downstream reporting environments.",
+    skills: [
+      "Snowflake",
+      "SQL",
+      "ETL/ELT",
+      "Data Transformation",
+      "Validation & Reconciliation",
+    ],
   },
   {
     title: "Business Automation",
     description:
-      "Replacing repetitive manual processes with practical, maintainable and well-documented automated workflows.",
-    skills: ["Python", "Google Apps Script", "Scheduling", "Monitoring"],
+      "Replacing repetitive manual processes with practical, maintainable and well-documented workflows that improve reliability and reduce operational effort.",
+    skills: [
+      "Python",
+      "Google Apps Script",
+      "Scheduling",
+      "Monitoring",
+      "AI-assisted Automation",
+    ],
   },
   {
     title: "Enterprise Systems",
     description:
-      "Supporting business-critical platforms, users, permissions, structured data operations and cross-system processes.",
-    skills: ["Salesforce", "User Administration", "Data Operations", "Support"],
+      "Supporting business-critical platforms through structured master data, account and user administration, ownership, operational data and production support.",
+    skills: [
+      "Salesforce",
+      "Master Data",
+      "Account & User Administration",
+      "Ownership",
+      "Production Support",
+    ],
   },
   {
     title: "Business Analysis",
     description:
-      "Translating operational problems into clear requirements, scalable processes and practical technical solutions.",
+      "Translating business and operational requirements into clear technical solutions through process, data-flow, dependency and impact analysis.",
     skills: [
       "Requirements Analysis",
-      "Process Design",
-      "Stakeholder Coordination",
-      "Documentation",
+      "Business-to-Technical Translation",
+      "Process & Data-flow Analysis",
+      "Solution Validation",
+      "Technical Documentation",
     ],
   },
 ];

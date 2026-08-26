@@ -7,3 +7,4 @@ export { default as CallToAction } from "./CallToAction";
 
 export { default as Section } from "./Section";
 export { default as SectionHeading } from "./SectionHeading";
+export { default as ClientProgrammes } from "./ClientProgrammes";
